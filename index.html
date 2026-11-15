@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jeric Mangao | Senior PHP & Full-Stack Developer Portfolio</title>
+    <title>Jeric Mangao | Senior Software Engineer (PHP, Laravel & Full-Stack)</title>
     
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Professional portfolio of Jeric E. Mangao, Senior PHP and Full-Stack Developer with 8+ years of experience specializing in Laravel, CodeIgniter, database optimization, legacy systems modernization, and secure backend architectures.">
+    <meta name="description" content="Portfolio of Jeric E. Mangao, Senior Software Engineer with 8+ years building and modernizing enterprise web applications in PHP (Laravel, CodeIgniter), Vue.js and MySQL, with production C#/ASP.NET MVC and hands-on Python experience.">
     <meta name="keywords" content="Jeric Mangao, Jeric E. Mangao, PHP Developer, Senior Laravel Developer, CodeIgniter, Full-Stack Developer, PHP Software Engineer, Web Developer Portfolio, Philippines">
     <meta name="author" content="Jeric E. Mangao">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://jeric-mangao.vercel.app/">
-    <meta property="og:title" content="Jeric E. Mangao | Senior PHP & Full-Stack Developer">
+    <meta property="og:title" content="Jeric E. Mangao | Senior Software Engineer">
     <meta property="og:description" content="8+ years of experience designing, developing, and modernizing enterprise web applications using Laravel, PHP, and CodeIgniter.">
     <meta property="og:image" content="https://jeric-mangao.vercel.app/assets/img/og-preview.jpg">
     <meta property="og:image:width" content="1200">
@@ -71,7 +71,7 @@
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                     <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
-                        <a href="assets/resume/Jeric_Mangao_Resume_PH-2.pdf" download class="btn-custom btn-primary-gradient py-2 px-3" id="navResumeBtn">
+                        <a href="assets/resume/Jeric_Mangao_Resume_2026.pdf" download class="btn-custom btn-primary-gradient py-2 px-3" id="navResumeBtn">
                             <i class="fa-solid fa-cloud-arrow-down"></i> Resume
                         </a>
                     </li>
@@ -87,18 +87,18 @@
                 <!-- Hero Left: Text Content -->
                 <div class="col-lg-7 text-start">
                     <div class="hero-status" id="heroAvailability">
-                        <span class="status-dot"></span> Available for Senior Full-Stack Roles
+                        <span class="status-dot"></span> Available Immediately for Senior Engineering Roles
                     </div>
                     <h1 class="hero-name text-gradient">Jeric E. Mangao</h1>
-                    <h2 class="hero-title text-accent-gradient">Senior PHP / Full-Stack Developer</h2>
+                    <h2 class="hero-title text-accent-gradient">Senior Software Engineer · PHP / Full-Stack</h2>
                     <p class="hero-lead">
-                        Over 8 years of professional experience building, scaling, and modernizing robust enterprise web applications. Specializing in Laravel, CodeIgniter, high-performance database design, and complex third-party system integrations.
+                        Over 8 years building, scaling, and modernizing enterprise web applications. Specializing in Laravel, CodeIgniter, high-performance database design, and third-party integrations, with fundamentals that carry across stacks: C#/ASP.NET MVC in production, Python (FastAPI) and Dart (Flutter) hands-on.
                     </p>
                     <div class="d-flex flex-wrap gap-3">
                         <a href="#contact" class="btn-custom btn-primary-gradient" id="heroContactBtn">
                             <i class="fa-regular fa-envelope"></i> Contact Me
                         </a>
-                        <a href="assets/resume/Jeric_Mangao_Resume_PH-2.pdf" target="_blank" class="btn-custom btn-secondary-outline" id="heroViewResumeBtn">
+                        <a href="assets/resume/Jeric_Mangao_Resume_2026.pdf" target="_blank" class="btn-custom btn-secondary-outline" id="heroViewResumeBtn">
                             <i class="fa-regular fa-file-pdf"></i> View Resume
                         </a>
                     </div>
@@ -160,7 +160,7 @@
                                 <a href="tel:+639553997877" class="social-btn" title="Call Jeric" id="profilePhoneLink">
                                     <i class="fa-solid fa-phone"></i>
                                 </a>
-                                <a href="assets/resume/Jeric_Mangao_Resume_PH-2.pdf" class="social-btn" title="Download Resume" id="profileResumeLink" download>
+                                <a href="assets/resume/Jeric_Mangao_Resume_2026.pdf" class="social-btn" title="Download Resume" id="profileResumeLink" download>
                                     <i class="fa-solid fa-download"></i>
                                 </a>
                             </div>
@@ -183,6 +183,9 @@
                     </p>
                     <p class="text-secondary mb-4">
                         My expertise lies in securing web applications with advanced access controls (RBAC) and data protection policies, optimizing high-volume MySQL databases holding millions of records, and integrating complex financial, shipping, and notification APIs like Xero, Stripe, PayPal, and Viber.
+                    </p>
+                    <p class="text-secondary mb-4">
+                        My strongest skills are the ones that transfer: REST API design, relational data modeling, background jobs, authentication and security, and Linux/Docker deployments. I have shipped production C#/ASP.NET MVC, I am expanding into Python (FastAPI, SQLAlchemy), and I use AI-assisted development daily, so I ramp up quickly on new languages and codebases.
                     </p>
                     <div class="row g-3">
                         <div class="col-sm-6">
@@ -277,6 +280,7 @@
             <!-- Skill Category Filters -->
             <div class="skills-nav" role="tablist" id="skillsTabContainer">
                 <button class="skills-tab-btn active" data-filter="all" id="btnFilterAll">All Skills</button>
+                <button class="skills-tab-btn" data-filter="languages" id="btnFilterLanguages">Languages</button>
                 <button class="skills-tab-btn" data-filter="backend" id="btnFilterBackend">Backend & Core</button>
                 <button class="skills-tab-btn" data-filter="frontend" id="btnFilterFrontend">Frontend & JS</button>
                 <button class="skills-tab-btn" data-filter="database" id="btnFilterDatabase">Database & Design</button>
@@ -286,6 +290,24 @@
             
             <!-- Skills Grid -->
             <div class="row g-4" id="skillsGrid">
+                <!-- Languages -->
+                <div class="col-md-6 col-lg-4 skill-card-col" data-category="languages">
+                    <div class="skill-card">
+                        <div class="skill-title-wrapper">
+                            <i class="fa-solid fa-language skill-icon"></i>
+                            <h5 class="text-white mb-0">Languages</h5>
+                        </div>
+                        <div class="skill-badge-container">
+                            <span class="skill-badge">PHP (Expert)</span>
+                            <span class="skill-badge">JavaScript</span>
+                            <span class="skill-badge">SQL</span>
+                            <span class="skill-badge">C# (Production)</span>
+                            <span class="skill-badge">Python (FastAPI, SQLAlchemy)</span>
+                            <span class="skill-badge">Dart (Flutter)</span>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Backend -->
                 <div class="col-md-6 col-lg-4 skill-card-col" data-category="backend">
                     <div class="skill-card">
@@ -301,6 +323,9 @@
                             <span class="skill-badge">Queue Workers</span>
                             <span class="skill-badge">Cron Jobs</span>
                             <span class="skill-badge">MVC Architecture</span>
+                            <span class="skill-badge">Livewire</span>
+                            <span class="skill-badge">ASP.NET MVC</span>
+                            <span class="skill-badge">FastAPI</span>
                         </div>
                     </div>
                 </div>
@@ -316,6 +341,7 @@
                             <span class="skill-badge">JavaScript</span>
                             <span class="skill-badge">Vue.js</span>
                             <span class="skill-badge">React</span>
+                            <span class="skill-badge">Inertia.js</span>
                             <span class="skill-badge">jQuery</span>
                             <span class="skill-badge">Blade Templates</span>
                             <span class="skill-badge">Bootstrap</span>
@@ -335,6 +361,7 @@
                         <div class="skill-badge-container">
                             <span class="skill-badge">MySQL</span>
                             <span class="skill-badge">MariaDB</span>
+                            <span class="skill-badge">MongoDB</span>
                             <span class="skill-badge">Schema Design</span>
                             <span class="skill-badge">Query Optimization</span>
                             <span class="skill-badge">Stored Procedures</span>
@@ -358,7 +385,8 @@
                             <span class="skill-badge">AWS S3</span>
                             <span class="skill-badge">cPanel</span>
                             <span class="skill-badge">Hostinger</span>
-                            <span class="skill-badge">AI-Assisted Coding (Cursor/Copilot)</span>
+                            <span class="skill-badge">AI-Assisted Coding (Claude Code, Codex, Cursor, Copilot)</span>
+                            <span class="skill-badge">CI/CD</span>
                             <span class="skill-badge">Git & GitHub</span>
                             <span class="skill-badge">Linux (SSH)</span>
                             <span class="skill-badge">Apache</span>
@@ -422,12 +450,13 @@
                 <div class="timeline-item">
                     <div class="timeline-marker"></div>
                     <div class="timeline-meta">
-                        <span class="timeline-date">Aug 2023 – Present</span>
+                        <span class="timeline-date">Aug 2023 – Jul 2026</span>
                         <span class="timeline-company">CMIT Consultancy Group Inc.</span>
                     </div>
                     <h4 class="timeline-title text-white">Senior Software Engineer</h4>
                     <div class="timeline-card">
                         <ul class="timeline-bullets">
+                            <li><strong>Delivered 8 enterprise CMS platforms</strong> on Laravel Filament and Laravel Nova, including live public sites for Shakey’s Group, Metro Pacific Health and A.T. Yuchengco Centre; the largest spanned 40+ database tables.</li>
                             <li><strong>Architected and enforced application-level security</strong> for enterprise Laravel platforms, implementing Role-Based Access Control (RBAC), maker-checker workflows, secure file uploads via AWS S3 with malware scanning, and detailed audit trails.</li>
                             <li><strong>Designed and engineered secure administration modules</strong> using Laravel Filament and Laravel Nova, streamlining backend management and back-office CMS operations.</li>
                             <li><strong>Collaborated in agile sprints with cross-functional stakeholders</strong>, leading requirement analysis, technical solution design, code reviews, and deployment planning.</li>
@@ -454,7 +483,7 @@
                 <div class="timeline-item">
                     <div class="timeline-marker"></div>
                     <div class="timeline-meta">
-                        <span class="timeline-date">Mar 2023 – Present (Part-Time)</span>
+                        <span class="timeline-date">Mar 2023 – Present (Part-Time, Remote)</span>
                         <span class="timeline-company">Valeysoft</span>
                     </div>
                     <h4 class="timeline-title text-white">Software Engineer</h4>
@@ -462,7 +491,7 @@
                         <ul class="timeline-bullets">
                             <li><strong>Led backend development and ongoing modernization</strong> of Koala Toolkit, a large legacy CodeIgniter 3 enterprise ERP platform coordinating warehouse operations, order fulfillment, sales tracking, and billing.</li>
                             <li><strong>Optimized database performance and index schemas</strong> on high-volume MySQL databases managing million-row datasets, resolving query bottlenecks and improving system responsiveness.</li>
-                            <li><strong>Engineered robust integrations with Xero API</strong> across Customers, Invoices, Items, and Orders, automating financial synchronization and eliminating manual accounting work.</li>
+                            <li><strong>Engineered robust integrations with Xero API</strong> across Customers, Items, Ranges, Orders, Invoices, Credit Notes, and Payments, automating financial synchronization with sync logs and record-level success/failure metrics for observability.</li>
                             <li><strong>Designed and implemented a Production Planning module</strong>, streamlining inventory procurement and reducing manual stock ordering overhead for team members.</li>
                             <li><strong>Orchestrated production releases and server-side configurations</strong>, utilizing Linux SSH, Docker, and Laravel Forge on Linode (Akamai) cloud servers for secure deployment workflows and rollback safety.</li>
                         </ul>
@@ -576,8 +605,8 @@
                     <h4 class="timeline-title text-white">Web Developer</h4>
                     <div class="timeline-card">
                         <ul class="timeline-bullets">
-                            <li>Programmed and supported local government digital tracking portals using ASP.NET MVC and C#.</li>
-                            <li>Optimized database queries and mapped tables to digitize municipality administration workflows, improving processing speeds.</li>
+                            <li>Developed and maintained the Hubware admin platform using C#, ASP.NET MVC, SQL, JavaScript, HTML and CSS.</li>
+                            <li>Built new admin features and optimized existing modules for performance and maintainability.</li>
                         </ul>
                         <div class="timeline-env">
                             <div class="timeline-env-label">Technologies Used</div>
@@ -956,6 +985,50 @@
                 </div>
             </div>
             
+            <!-- GROUP C: PERSONAL PROJECTS -->
+            <div class="mt-5 pt-3">
+                <h4 class="text-white mb-4" style="font-family: var(--font-heading); font-weight: 600; font-size: 1.5rem; letter-spacing: -0.01em;">
+                    <i class="fa-solid fa-flask text-indigo me-2"></i> Personal Projects
+                </h4>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <article class="project-card h-100">
+                            <div class="project-header">
+                                <span class="project-category" style="color: var(--accent-indigo);">Web App</span>
+                                <h4 class="project-title text-white">Personal Finance Hub</h4>
+                            </div>
+                            <div class="project-body">
+                                <p class="project-desc">
+                                    A personal financial-planning platform covering credit cards, loans, amortization schedules and forecasting.
+                                </p>
+                                <div class="skill-badge-container">
+                                    <span class="skill-badge">Laravel</span>
+                                    <span class="skill-badge">Vue 3</span>
+                                    <span class="skill-badge">Inertia.js</span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <article class="project-card h-100">
+                            <div class="project-header">
+                                <span class="project-category" style="color: var(--accent-indigo);">Mobile App</span>
+                                <h4 class="project-title text-white">Baby Feeding Tracker</h4>
+                            </div>
+                            <div class="project-body">
+                                <p class="project-desc">
+                                    A personal mobile app for logging baby feeding activity.
+                                </p>
+                                <div class="skill-badge-container">
+                                    <span class="skill-badge">Flutter</span>
+                                    <span class="skill-badge">Dart</span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+
             <!-- Resume Download CTA -->
             <div class="mt-5">
                 <div class="cta-banner">
@@ -963,7 +1036,7 @@
                     <p class="text-secondary mb-4 max-width-600 mx-auto">
                         Download the comprehensive PDF containing Jeric's complete professional history, exact timeline details, and certifications.
                     </p>
-                    <a href="assets/resume/Jeric_Mangao_Resume_PH-2.pdf" class="btn-custom btn-primary-gradient px-4 py-3" id="ctaDownloadBtn" download>
+                    <a href="assets/resume/Jeric_Mangao_Resume_2026.pdf" class="btn-custom btn-primary-gradient px-4 py-3" id="ctaDownloadBtn" download>
                         <i class="fa-solid fa-file-arrow-down"></i> Download PDF Resume
                     </a>
                 </div>
